@@ -176,11 +176,17 @@ body {
     background-color:  #ffd6f6;
 }
 .envelope-wrapper {
-    height: 380px;
+  height: auto;
+  min-height: 100vh;
+  padding-top: 40px;
 }
+
 .reset {
     text-align: center;
+    margin-top: 80px;
+    position: relative;
 }
+
 .reset button {
     font-weight: 800;
     font-style: normal;
